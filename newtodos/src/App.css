@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+body{
+  background:white;
+}
+
+.container{
+  margin-top: 100px;
+  padding-left:10%;
+  padding-right:10%;
+  max-width:500px;
+}
+
+.todo-header{
+  background-color:#CAFFBF;
+}
+
+.todo-body{
+  padding: 40px 2%;
+  background-color:#FFADAD;
+}
+
+.input-container {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.todo-input {
+  background-color:white;
+  padding:6px 20px;
+  border:none;
+  border-radius:5px 0 0 5px;
+  outline:none;
+}
+
+.btn-container {
+  border-radius:0 5px 5px 0;
+  background-color: white;
+  padding:2px;
+}
+
+.todo-item-container{
+  margin:20px auto;
+  padding:10px;
+  background: white;
+  border-radius:5px;
+  text-align:left;
+}
